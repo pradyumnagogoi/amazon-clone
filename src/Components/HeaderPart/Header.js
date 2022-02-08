@@ -15,8 +15,8 @@ function Header() {
                   <LocationOnOutlinedIcon />
               </div>
               <div className='head_option'>
-                <span className='line'>Deliver to Pradyumna</span>
-                <span className='line2'> Guwahati 786601</span>
+                <span className='line'>Hello</span>
+                <span className='line2'>Select your address</span>
               </div>
           </div>
           
@@ -54,7 +54,7 @@ function Header() {
       <div className='head_right'>
           
           <div className='head_option'>
-              <span className='line1'>Hello, Pradyumna</span>
+              <span className='line1'>Hello, Sign in</span>
               <span className='line2'>Account &amp; List</span>
           </div>
           <div className='head_option'>

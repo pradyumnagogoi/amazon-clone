@@ -1,14 +1,15 @@
 import './App.css';
 import Header from './Components/HeaderPart/Header';
+import Home from './Components/HomePage/Home';
 import Nav from './Components/NavBar/Nav';
-import Tranding from './Components/Tranding/Tranding';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Nav />
-      <Tranding />
+      <Home />
+      
     </div>
   );
 }

@@ -36,7 +36,7 @@
 
 .line1 {
   cursor: pointer;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 14px;
   height: 14px;
   font-weight: 400;
@@ -45,7 +45,7 @@
 
 .line2 {
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 15px;
   font-weight: 700;
   color: #fff;
@@ -73,34 +73,39 @@
 .head_mid {
   display: flex;
   align-items: center;
-}
-
-.input_all {
-}
-
-.input {
-  width: 50vw;
   height: 35px;
+  width: auto;
+  max-width: auto;
+  border: none;
+}
+
+.head_mid :active {
+  border: 2px solid #f28e43;
+  border-radius: 5px;
 }
 
 #categories {
-  height: 40px;
+  max-height: 100%;
   width: 55px;
-  cursor: pointer;
-  display: block;
-  justify-content: center;
-  line-height: 35px;
-  border-radius: 8px 0 0 8px;
   background-color: #ccc;
+  height: 40px;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.input {
+  width: 45vw;
+  height: 35px;
+  outline: none;
 }
 
 .input_search {
   width: 55px;
   height: 40px;
   background-color: #f28e43;
-  border-radius: 0 8px 8px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  border-radius: 0 5px 5px 0;
 }
