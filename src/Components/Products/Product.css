@@ -1,8 +1,14 @@
 .products {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   background-color: #eaeded;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+  padding: 10px;
 }
 
 .fluid_card {
@@ -11,7 +17,7 @@
   align-items: center;
   background-color: white;
   width: 350px;
-  height: 400px;
+  height: 430px;
   z-index: 1;
 }
 
@@ -42,13 +48,6 @@
   max-width: 100%;
 }
 
-.products {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 15px;
-  padding: 10px;
-}
-
 .fluid_button {
   width: 85%;
   height: 30px;
@@ -58,9 +57,43 @@
   margin: 20px;
 }
 
-.more_products {
-  display: flex;
-  flex-direction: column;
+.btm_product {
+  height: 350px;
+  max-width: 100%;
+  margin: 12px;
   background-color: white;
-  height: 400px;
+}
+
+.aa_section {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  justify-content: space-between;
+  text-align: left;
+  padding: 15px;
+  gap: 0px;
+}
+
+.aa_section::-webkit-scrollbar {
+  display: none;
+}
+
+.a_img {
+  padding: 10px;
+}
+
+.span_class {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.btm_product2 {
+  height: 300px;
+  max-width: 100%;
+  margin: 12px;
+  background-color: white;
+}
+
+p {
+  font-size: 14px;
 }
