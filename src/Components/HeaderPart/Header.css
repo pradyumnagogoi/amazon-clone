@@ -65,6 +65,10 @@
   text-align: left;
 }
 
+.head_option:hover {
+  border: 1px solid white;
+}
+
 .head_option_right {
   display: flex;
   align-items: center;

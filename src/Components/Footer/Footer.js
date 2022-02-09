@@ -80,20 +80,7 @@ function Footer() {
         </div>
       </div>
       <div className='footer4'>
-        <div className='footer4_a'>
-          <div>a</div>
-          <div>b</div>
-          <div>c</div>
-          <div>d</div>
-          <div>e</div>
-          <div>f</div>
-          <div>g</div>
-          <div>h</div>
-          <div>i</div>
-        </div>
-        <div>
-            b
-        </div>
+        &#169; 1996-2022, Amazon.in_clone | Pradyumna Gogoi
       </div>
   </div>;
 }
